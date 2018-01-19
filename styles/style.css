@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    margin:0;
+}
+
+body {
+    font-family: Lato;
+}
+
+.page-content {
+  position: relative;
+  top: -20px;
+  background-color: #675b72;    
+}
+
+.me {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-bottom:10px;
+  border: 3px solid #f8f8f8;
+}
+
+.white {
+    color: #f8f8f8;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.head {
+    background: url(https://s12.postimg.org/o2btlwhy5/freestocks-org-175144.jpg?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);
+	background-size: cover;
+	background-position: center;  
+}
+
+.header-content {
+	text-align: center;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.white-light {
+  color: #f8f8f8;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.cropcircle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #eee no-repeat center;
+    background-size: cover;
+    border: 3px solid #f8f8f8;
+    margin-right:17px;
+    margin-bottom:10px;
+}
+
+#about-img {
+    background-image: url(https://s1.postimg.org/heg5w42kf/image.png);  
+}
+
+.alt-section {
+  margin:0 auto;
+  padding: 20px 20px 0px 20px;
+  background: #7a757f;
+  padding-bottom:15px;
+}
+
+.cont-box {
+  max-width:1200px;
+}
+
+.off-white {
+  color: #efefef;
+}
+
+.skill-menu {
+  text-align: center;
+  border: 4px solid #4e4556;
+  min-width: 320px;
+  max-width: 425px;
+  margin: 20px auto;
+  border-radius: 8px;
+  background: #efefef;
+  color: #4e4556;
+  padding: 10px;
+  overflow: hidden;
+}
