@@ -1,10 +1,10 @@
 /* global app */
 /*global jQuery*/
+/*global $*/
 app.controller('homeCtrl', function($scope) {
-
- $scope.reveal = function(){
-   jQuery('.info').slideToggle('slow');
- }; 
-
+ 
+// $('.skill-menu').click(function() {
+//     $('.info').slideToggle('slow');
+// });
 
 }); 

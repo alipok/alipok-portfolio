@@ -29,7 +29,7 @@ body {
 }
 
 .head {
-    background: url(https://s12.postimg.org/o2btlwhy5/freestocks-org-175144.jpg?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);
+  background: url(https://s12.postimg.org/o2btlwhy5/freestocks-org-175144.jpg?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);
 	background-size: cover;
 	background-position: center;  
 }
@@ -73,7 +73,7 @@ body {
 }
 
 .cont-box {
-  max-width:1200px;
+  max-width:1000px;
 }
 
 .off-white {
@@ -82,13 +82,24 @@ body {
 
 .skill-menu {
   text-align: center;
-  border: 4px solid #4e4556;
+  /*border: 4px solid #4e4556;*/
   min-width: 320px;
   max-width: 425px;
   margin: 20px auto;
   border-radius: 8px;
   background: #efefef;
   color: #4e4556;
-  padding: 10px;
-  overflow: hidden;
+  padding: 20px;
+  box-shadow: 1px 1px 13px #4a3a54;
+}
+
+.about-icon {
+  color: #c0b9c9;
+  margin: 5px auto -.2em auto;
+}
+
+hr {
+	width: 300px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1 px solid rgba(0,0,0,.2);
 }
